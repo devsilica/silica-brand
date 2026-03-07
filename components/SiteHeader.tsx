@@ -34,9 +34,9 @@ export default function SiteHeader() {
   <Image
     src="/silica-logo.png"
     alt="Silica Brand Logo"
-    width={30}
-    height={30}
-    className="h-20 w-auto"
+    width={50}
+    height={50}
+    className="h-15 w-auto"
     priority
   />
 <span className="text-lg font-semibold tracking-wide color-black">

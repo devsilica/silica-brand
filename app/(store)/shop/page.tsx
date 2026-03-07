@@ -1,16 +1,9 @@
-import Link from "next/link";
+
 import { supabase } from "@/lib/supabaseClient";
-import QuickAddButton from "@/components/QuickAddButton";
 import ShopCatalog from "@/components/ShopCatalog";
+import type { Product } from "@/types/product";
 
 
-type Product = {
-  id: string;
-  name: string;
-  slug: string;
-  price: number;
-  image_url: string | null;
-};
 
 export default async function ShopPage() {
   const { data, error } = await supabase

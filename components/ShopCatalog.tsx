@@ -3,15 +3,8 @@
 import { useMemo, useState } from "react";
 import Link from "next/link";
 import QuickAddButton from "@/components/QuickAddButton";
+import type { Product } from "@/types/product";
 
-type Product = {
-  id: string;
-  name: string;
-  slug: string;
-  price: number;
-  image_url: string | null;
-  category: string | null;
-};
 
 function cls(...a: Array<string | false | null | undefined>) {
   return a.filter(Boolean).join(" ");
