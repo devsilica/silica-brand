@@ -1,8 +1,15 @@
+export const dynamic = "force-dynamic";
+
 import Link from "next/link";
+import { createClient } from "@supabase/supabase-js";
 import Container from "@/components/Container";
 import SectionTitle from "@/components/SectionTitle";
-import { supabase } from "@/lib/supabaseClient";
 import QuickAddButton from "@/components/QuickAddButton";
+
+const supabase = createClient(
+  process.env.NEXT_PUBLIC_SUPABASE_URL!,
+  process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
+);
 
 type Product = {
   id: string;
