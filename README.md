@@ -2,117 +2,125 @@ SILICA STORE
 
 Wear Confidence. Wear Silica.
 
-Silica Store is a modern fashion e-commerce platform designed to deliver a seamless online shopping experience while providing administrators with the tools to manage and operate the store efficiently.
+A modern fashion e-commerce platform featuring a premium online storefront and an integrated admin dashboard for managing store operations.
 
-From discovering fashion collections and shopping for products to managing inventory and processing orders, Silica Store brings the customer shopping experience and store operations together in one platform.
-
-Live Website: https://silicastore.vercel.app
-
-Repository: https://github.com/devsilica/silica-brand
+<p align="center">
+  <a href="https://silicastore.vercel.app">Live Website</a> ·
+  <a href="https://github.com/devsilica/silica-brand">Repository</a>
+</p>
 
 ⸻
 
 Overview
 
-Silica Store combines a customer-facing fashion storefront with an administrative dashboard.
+Silica Store is a fashion retail platform built to bring the shopping experience and store management into one digital ecosystem.
 
-The storefront provides customers with an intuitive way to explore collections, discover products, add items to their cart, and manage their shopping experience.
+Customers can explore fashion collections, discover products, add items to their shopping cart, and track their orders. Administrators have access to a dedicated dashboard for managing products, orders, and store operations.
 
-The admin dashboard provides a dedicated interface for managing the store and its operations.
+The platform combines modern interface design, responsive layouts, and a practical e-commerce workflow.
 
-Key Features
+Features
 
-Customer Storefront
+Customer Experience
 
-* Modern Homepage – An editorial-inspired fashion shopping experience.
-* Product Collections – Browse curated fashion selections.
-* New Arrivals – Discover newly added products.
-* Product Details – Explore individual products.
-* Shopping Cart – Add and manage selected products.
-* Quick Add to Cart – Add products conveniently.
-* Order Tracking – Track purchases using order details.
-* WhatsApp Support – Connect with customer support.
-* Responsive Design – Optimized for mobile, tablet, and desktop.
+* Fashion Storefront – Modern, editorial-inspired shopping interface.
+* Product Discovery – Browse products and curated collections.
+* New Arrivals – Explore the latest additions.
+* Product Details – View individual product information.
+* Shopping Cart – Add, review, and manage selected products.
+* Quick Add – Add products to the cart conveniently.
+* Order Tracking – Check order progress.
+* WhatsApp Support – Contact the store directly.
+* Responsive Interface – Optimized for mobile, tablet, and desktop.
 
 Admin Dashboard
 
-A dedicated administrative interface for managing store operations.
+A dedicated dashboard for managing the store’s operations.
 
-* Dashboard Overview – Access the store management interface.
-* Product Management – Manage the store’s product catalogue.
+* Dashboard Overview – Centralized store administration.
+* Product Management – Manage the product catalogue.
 * Order Management – View and manage customer orders.
 * Inventory Management – Manage product availability and stock.
-* Store Operations – Manage essential e-commerce activities.
+* Store Administration – Access essential store management tools.
 
 Technology Stack
 
-Technology	Purpose
+Technology	Usage
 Next.js 16	Application framework
 React 19	UI development
 TypeScript	Type safety
 Tailwind CSS 4	Styling
-Supabase	Backend and database services
+Supabase	Backend and database
 
 Getting Started
+
+Follow these instructions to run the project locally.
 
 Prerequisites
 
 * Node.js
 * npm
 
-Installation
-
-Clone the repository:
+1. Clone the repository
 
 git clone https://github.com/devsilica/silica-brand.git
 
-Navigate into the project directory:
+2. Navigate to the project
 
 cd silica-brand
 
-Install dependencies:
+3. Install dependencies
 
 npm install
 
-Start the development server:
+4. Configure environment variables
+
+Create a .env.local file in the project root and add the required environment variables.
+
+Use the project’s existing environment variable names and your own Supabase credentials. Never commit secrets to GitHub.
+
+5. Start the development server
 
 npm run dev
 
-Open http://localhost:3000 in your browser.
+Visit http://localhost:3000 to access the application.
 
 Available Scripts
 
 Command	Description
 npm run dev	Start development server
-npm run build	Build for production
-npm run start	Start production server
+npm run build	Build the application
+npm run start	Run production server
 npm run lint	Run ESLint
 
 Project Structure
 
 silica-brand/
-├── app/             # Application routes and pages
-├── components/      # Reusable UI components
-├── lib/             # Utilities and integrations
-├── public/          # Static assets
-├── types/           # TypeScript definitions
+├── app/              # Application routes and pages
+├── components/       # Reusable UI components
+├── lib/              # Utilities and integrations
+├── public/           # Static assets
+├── types/            # TypeScript definitions
 ├── package.json
 └── README.md
 
 Deployment
 
-Silica Store is deployed on Vercel.
+The application is deployed using Vercel.
 
-Live Website: https://silicastore.vercel.app
+Production URL: https://silicastore.vercel.app
 
-Brand
+Project Links
 
-Silica Store
-
-Wear Confidence. Wear Silica.
-
-More than clothing, Silica is presence.
+Resource	Link
+Live Store	silicastore.vercel.app
+GitHub Repository	devsilica/silica-brand
 
 ⸻
 
-Designed and developed by Silica.
+<p align="center">
+  <strong>SILICA STORE</strong><br/>
+  Wear Confidence. Wear Silica.
+  <br/><br/>
+  Designed & Developed by <a href="https://github.com/devsilica">Silica</a>.
+</p>
