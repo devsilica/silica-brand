@@ -95,14 +95,20 @@ npm run lint	Run ESLint
 
 Project Structure
 
+Project Structure
+
+<div align="left">
 silica-brand/
-├── app/              # Application routes and pages
-├── components/       # Reusable UI components
-├── lib/              # Utilities and integrations
-├── public/           # Static assets
-├── types/            # TypeScript definitions
+├── app/
+├── components/
+├── lib/
+├── public/
+├── types/
 ├── package.json
+├── next.config.ts
+├── tsconfig.json
 └── README.md
+</div>
 
 Deployment
 
