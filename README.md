@@ -1,36 +1,118 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+SILICA STORE
 
-## Getting Started
+Wear Confidence. Wear Silica.
 
-First, run the development server:
+Silica Store is a modern fashion e-commerce platform designed to deliver a seamless online shopping experience while providing administrators with the tools to manage and operate the store efficiently.
 
-```bash
+From discovering fashion collections and shopping for products to managing inventory and processing orders, Silica Store brings the customer shopping experience and store operations together in one platform.
+
+Live Website: https://silicastore.vercel.app
+
+Repository: https://github.com/devsilica/silica-brand
+
+⸻
+
+Overview
+
+Silica Store combines a customer-facing fashion storefront with an administrative dashboard.
+
+The storefront provides customers with an intuitive way to explore collections, discover products, add items to their cart, and manage their shopping experience.
+
+The admin dashboard provides a dedicated interface for managing the store and its operations.
+
+Key Features
+
+Customer Storefront
+
+* Modern Homepage – An editorial-inspired fashion shopping experience.
+* Product Collections – Browse curated fashion selections.
+* New Arrivals – Discover newly added products.
+* Product Details – Explore individual products.
+* Shopping Cart – Add and manage selected products.
+* Quick Add to Cart – Add products conveniently.
+* Order Tracking – Track purchases using order details.
+* WhatsApp Support – Connect with customer support.
+* Responsive Design – Optimized for mobile, tablet, and desktop.
+
+Admin Dashboard
+
+A dedicated administrative interface for managing store operations.
+
+* Dashboard Overview – Access the store management interface.
+* Product Management – Manage the store’s product catalogue.
+* Order Management – View and manage customer orders.
+* Inventory Management – Manage product availability and stock.
+* Store Operations – Manage essential e-commerce activities.
+
+Technology Stack
+
+Technology	Purpose
+Next.js 16	Application framework
+React 19	UI development
+TypeScript	Type safety
+Tailwind CSS 4	Styling
+Supabase	Backend and database services
+
+Getting Started
+
+Prerequisites
+
+* Node.js
+* npm
+
+Installation
+
+Clone the repository:
+
+git clone https://github.com/devsilica/silica-brand.git
+
+Navigate into the project directory:
+
+cd silica-brand
+
+Install dependencies:
+
+npm install
+
+Start the development server:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Available Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Command	Description
+npm run dev	Start development server
+npm run build	Build for production
+npm run start	Start production server
+npm run lint	Run ESLint
 
-## Learn More
+Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+silica-brand/
+├── app/             # Application routes and pages
+├── components/      # Reusable UI components
+├── lib/             # Utilities and integrations
+├── public/          # Static assets
+├── types/           # TypeScript definitions
+├── package.json
+└── README.md
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Silica Store is deployed on Vercel.
 
-## Deploy on Vercel
+Live Website: https://silicastore.vercel.app
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Brand
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Silica Store
+
+Wear Confidence. Wear Silica.
+
+More than clothing, Silica is presence.
+
+⸻
+
+Designed and developed by Silica.
