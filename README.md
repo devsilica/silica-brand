@@ -93,22 +93,6 @@ npm run build	Build the application
 npm run start	Run production server
 npm run lint	Run ESLint
 
-Project Structure
-
-Project Structure
-
-<div align="left">
-silica-brand/
-├── app/
-├── components/
-├── lib/
-├── public/
-├── types/
-├── package.json
-├── next.config.ts
-├── tsconfig.json
-└── README.md
-</div>
 
 Deployment
 
